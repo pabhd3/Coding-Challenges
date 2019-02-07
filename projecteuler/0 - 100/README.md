@@ -7,3 +7,4 @@
 | [003](./003/) | [Largest Prime Factor](./003/) | JavaScript, PHP, Python3, Scala |
 | [004](./004/) | [Largest Palindrome Product](./004/) | PHP, Python3 |
 | [005](./005/) | [Smallest Multiple](./005/) | PHP, Python3, Scala |
+| [006](./006/) | [Sum Square Difference](./006/) | PHP, Python3, Scala |
