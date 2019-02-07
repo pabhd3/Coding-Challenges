@@ -23,5 +23,10 @@ Find the difference between the sum of the squares of the first *n* natural numb
 
 #### **Python3**
 
-* Run `python3 sumSquareDifference.py` from the command line.
-* Enter an integer, *n*, and hit enter.
+* Run `python3 sumSquareDifference.py n` from the command line.
+* Set *n* equal to an integer.
+
+#### **Scala**
+
+* Run `scala sumSquareDifference.scala n` from the command line.
+* Set *n* equal to an integer.
