@@ -24,7 +24,7 @@ def readInstructions(inp, instructions):
     # Make a copy of instructions to change
     cpy = [i for i in instructions]
     i = 0
-    while(i < len(instructions)):
+    while(True):
         # Get opcode and parameter modes
         _, b, c, d, e  = createInstruction(instr=cpy[i])
         opcode = int(f"{d}{e}")
@@ -49,7 +49,32 @@ def readInstructions(inp, instructions):
             v1 = p1 if c==1 else cpy[p1]
             print(v1)
             i += 2
-    return cpy
+        elif(opcode == 5):
+            # Get position and update instructions
+            p1, p2 = cpy[i+1], cpy[i+2]
+            v1 = p1 if c==1 else cpy[p1]
+            v2 = p2 if b==1 else cpy[p2]
+            i = v2 if v1 else i+3
+        elif(opcode == 6):
+            # Get position and update instructions
+            p1, p2 = cpy[i+1], cpy[i+2]
+            v1 = p1 if c==1 else cpy[p1]
+            v2 = p2 if b==1 else cpy[p2]
+            i = v2 if not v1 else i+3
+        elif(opcode == 7):
+            # Get position and update instructions
+            p1, p2, p3 = cpy[i+1], cpy[i+2], cpy[i+3]
+            v1 = p1 if c==1 else cpy[p1]
+            v2 = p2 if b==1 else cpy[p2]
+            cpy[p3] = 1 if v1 < v2 else 0
+            i += 4
+        elif(opcode == 8):
+            # Get position and update instructions
+            p1, p2, p3 = cpy[i+1], cpy[i+2], cpy[i+3]
+            v1 = p1 if c==1 else cpy[p1]
+            v2 = p2 if b==1 else cpy[p2]
+            cpy[p3] = 1 if v1 == v2 else 0
+            i += 4
 
 
 if __name__ == "__main__":
@@ -59,4 +84,7 @@ if __name__ == "__main__":
     instructions = [int(m) for m in data.split(",")]
     # Part 1 - Read Instructions
     print(f"Part 1: Read Instructions")
-    newInstr = readInstructions(inp=1, instructions=instructions)
+    readInstructions(inp=1, instructions=instructions)
+    # Part 2 - Add opcodes 5-8
+    print(f"Part 1: Add Opcodes 5-8")
+    readInstructions(inp=5, instructions=instructions)

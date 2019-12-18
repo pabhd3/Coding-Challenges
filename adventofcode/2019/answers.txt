@@ -1,0 +1,27 @@
+--- Day 1: The Tyranny of the Rocket Equation ---
+Part 1: 3432671
+Part 2: 5146132
+
+--- Day 2: 1202 Program Alarm ---
+Part 1: 4714701
+Part 2: 5121
+
+--- Day 3: Crossed Wires ---
+Part 1: 5319
+Part 2: 122514
+
+--- Day 4: Secure Container ---
+Part 1: 466
+Part 2: 292
+
+--- Day 5: Sunny with a Chance of Asteroids ---
+Part 1: 13210611
+Part 2: 584126
+
+--- Day 6: Universal Orbit Map ---
+Part 1: 251208
+Part 2: 397
+
+--- Day 8: Space Image Format ---
+Part 1: 2975
+Part 2: EHRUE
