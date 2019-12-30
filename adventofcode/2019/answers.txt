@@ -25,3 +25,9 @@ Part 2: 397
 --- Day 8: Space Image Format ---
 Part 1: 2975
 Part 2: EHRUE
+
+--- Day 10: Monitoring Station ---
+Part 1: 334
+
+--- Day 12: The N-Body Problem ---
+Part 1: 10845
