@@ -1,3 +1,7 @@
 --- Day 1: Report Repair ---
 Part 1: 1016131
 Part 2: 276432018
+
+--- Day 2: Password Philosophy ---
+Part 1: 560
+Part 2: 303
