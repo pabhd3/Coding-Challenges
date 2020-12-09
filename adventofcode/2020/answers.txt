@@ -5,3 +5,7 @@ Part 2: 276432018
 --- Day 2: Password Philosophy ---
 Part 1: 560
 Part 2: 303
+
+--- Day 3: Toboggan Trajectory ---
+Part 1: 214
+Part 2: 8336352024
