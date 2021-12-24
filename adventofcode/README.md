@@ -12,4 +12,5 @@ Coding Challenges from adventofcode.com
 | [2018](https://adventofcode.com/2018) |    0     |   50    |   0%   |
 | [2019](https://adventofcode.com/2019) |    0     |   50    |   0%   |
 | [2020](https://adventofcode.com/2020) |    6     |   50    |   4%   |
+| [2021](https://adventofcode.com/2021) |    0     |   50    |   0%   |
 |               **Total**               |  **24**  | **300** | **8%** |
